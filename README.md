@@ -42,6 +42,9 @@ A simple RESTful CRUD application built using **Spring Boot**, **Java 17+**, **H
 - Username: `sa`
 - Password: `password`
 
+## 📓 Swagger API
+To view your endpoints visit this on your browser : 
+``` http://localhost:8080/swagger-ui/index.html ``` 
 
 ## 🎯 Learning Outcomes
 
