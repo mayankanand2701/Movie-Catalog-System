@@ -27,12 +27,12 @@ A simple RESTful CRUD application built using **Spring Boot**, **Java 17+**, **H
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `POST` | `/api/movies` | Create a new movie |
-| `GET` | `/api/movies` | Retrieve all movies |
-| `GET` | `/api/movies/{id}` | Get movie by ID |
-| `PUT` | `/api/movies/{id}` | Full update of movie |
-| `PATCH` | `/api/movies/{id}` | Partial update of movie (e.g. rating only) |
-| `DELETE` | `/api/movies/{id}` | Delete a movie |
+| `POST` | `/api/inputMovies` | Create a new movie |
+| `GET` | `/api/getAllMovies` | Retrieve all movies |
+| `GET` | `/api/getMovieById/{id}` | Get movie by ID |
+| `PUT` | `/api/fullUpdateMovie/{id}` | Full update of movie |
+| `PATCH` | `/api/partialUpdateMovie/{id}` | Partial update of movie (e.g. rating only) |
+| `DELETE` | `/api/deleteMovieById/{id}` | Delete a movie |
 
 
 ## 🧪 H2 Database Console
